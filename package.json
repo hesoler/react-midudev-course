@@ -1,0 +1,20 @@
+{
+  "name": "midudev-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./projects/*"
+  ],
+  "author": "hesoler",
+  "dependencies": {
+    "@s-ui/mono": "^2.41.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
