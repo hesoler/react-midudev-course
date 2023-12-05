@@ -1,27 +1,17 @@
-import { useEffect, useState } from 'react'
 import './App.css'
-import { useFetch } from './hooks/useFetch'
-
-const CAT_ENDPOINT_RANDOM_FACT = 'https://catfact.ninja/fact'
-const CAT_PREFIX_IMAGE_URL = 'https://cataas.com/cat/says/'
+import { useCatFact } from './hooks/useCatFact'
+import { useCatImage } from './hooks/useCatImage'
 
 export function App () {
-  const [fact, setFact] = useState()
-  const [imageUrl, setImageUrl] = useState('')
-  const fetchCat = useFetch(CAT_ENDPOINT_RANDOM_FACT)
+  const { fact, refreshFact } = useCatFact()
+  const { imageUrl } = useCatImage({ fact })
 
-  useEffect(() => {
-    if (!fetchCat) return
-    const { fact } = fetchCat
-    setFact(fact)
-    const threeFirstWords = fact.split(' ', 3).join(' ')
-    console.log(threeFirstWords)
-    setImageUrl(CAT_PREFIX_IMAGE_URL + threeFirstWords)
-  }, [fetchCat])
+  const handleClick = async () => refreshFact()
 
   return (
     <main>
-      <h1>App de gatos</h1>
+      <h1>Cats App</h1>
+      <button onClick={handleClick}>Get new fact</button>
       {fact && <p>{fact}</p>}
       {imageUrl && <img src={imageUrl} alt={`Image extracted using the first three words for ${fact}`} />}
     </main>
