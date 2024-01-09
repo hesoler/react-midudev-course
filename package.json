@@ -5,9 +5,14 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "./projects/*"
+    "projects/*"
   ],
   "author": "hesoler",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesoler/react-midudev-course.git"
+  },
+  "homepage": "https://github.com/hesoler/react-midudev-course#readme",
   "dependencies": {
     "@s-ui/mono": "^2.41.0"
   },
