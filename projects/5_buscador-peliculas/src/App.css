@@ -12,10 +12,11 @@ main {
   width: 100%;
 }
 
-form {
+.form {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 1.5em;
 }
 
 .movies {
@@ -41,4 +42,6 @@ form {
 .movie img {
   border-radius: 8px;
   margin-top: 16px;
+  height: 360px;
+  aspect-ratio: 2/3;
 }
