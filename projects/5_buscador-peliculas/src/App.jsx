@@ -77,8 +77,9 @@ function App() {
               border: '1px solid transparent',
               borderColor: error ? 'red' : 'transparent'
             }} />
-          <input type='checkbox' onChange={handleSort} checked={sort} />
           <button type='submit'>Search</button>
+          <input id='sortCheck' type='checkbox' onChange={handleSort} checked={sort} />
+          <label htmlFor='sortCheck'>Sort by title</label>
         </form>
 
         {error && <p style={{ color: 'red' }} className='error'>{error}</p>}
