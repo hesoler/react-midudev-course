@@ -52,18 +52,14 @@ function App () {
 
   const handleChange = (event) => {
     const newSearch = event.target.value
+    if (newSearch.startsWith(' ') || newSearch.endsWith('  ')) return
     updateSearch(newSearch)
-    getMovies({ search: newSearch })
-    debouncedGetMovies({ search: newSearch })
+    debouncedGetMovies(newSearch.trim())
   }
 
   const handleSort = () => {
     setSort(!sort)
   }
-
-  useEffect(() => {
-    console.log('new movies')
-  }, [getMovies])
 
   return (
     <div className='page'>
