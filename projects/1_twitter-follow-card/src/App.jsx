@@ -1,10 +1,10 @@
-import "./App.css";
-import TwitterFollowCard from "./TwitterFollowCard";
-import { users } from "./users";
+import './App.css'
+import TwitterFollowCard from './TwitterFollowCard'
+import { users } from './users'
 
-function App() {
+function App () {
   return (
-    <section className="App">
+    <section className='App'>
       {users.map(({ isFollowing, name, userName }) => (
         <TwitterFollowCard
           initialIsFollowing={isFollowing}
@@ -15,7 +15,7 @@ function App() {
         </TwitterFollowCard>
       ))}
     </section>
-  );
+  )
 }
 
-export default App;
+export default App

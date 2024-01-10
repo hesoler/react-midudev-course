@@ -4,7 +4,7 @@ import { Movies } from './components/Movies'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import debounce from 'just-debounce-it'
 
-function useSearch() {
+function useSearch () {
   const [search, setSearch] = useState('')
   const [error, setError] = useState(null)
   const isFirstInput = useRef(true)
@@ -19,7 +19,7 @@ function useSearch() {
       setError('This field can not be empty')
       return
     }
-    if (RegExp(/^\d+$/).exec(search)) {
+    if (/^\d+$/.exec(search)) {
       setError('Search can not be a number')
       return
     }
@@ -32,14 +32,14 @@ function useSearch() {
 
   return { search, updateSearch: setSearch, error }
 }
-function App() {
+function App () {
   const [sort, setSort] = useState(false)
   const { search, updateSearch, error } = useSearch()
   const { movies, loading, getMovies } = useMovies({ search, sort })
 
   const debouncedGetMovies = useCallback(
     debounce(search => {
-      console.log('search', search);
+      console.log('search', search)
       getMovies({ search })
     }, 500)
     , [getMovies]
@@ -62,9 +62,8 @@ function App() {
   }
 
   useEffect(() => {
-    console.log('new movies');
+    console.log('new movies')
   }, [getMovies])
-
 
   return (
     <div className='page'>
@@ -72,11 +71,13 @@ function App() {
         <h1>Movie search engine</h1>
 
         <form className='form' onSubmit={handleSubmit}>
-          <input onChange={handleChange} value={search} placeholder='Put a movie title'
+          <input
+            onChange={handleChange} value={search} placeholder='Put a movie title'
             style={{
               border: '1px solid transparent',
               borderColor: error ? 'red' : 'transparent'
-            }} />
+            }}
+          />
           <button type='submit'>Search</button>
           <input id='sortCheck' type='checkbox' onChange={handleSort} checked={sort} />
           <label htmlFor='sortCheck'>Sort by title</label>
@@ -93,4 +94,3 @@ function App() {
 }
 
 export default App
-
