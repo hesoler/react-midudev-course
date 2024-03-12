@@ -1,37 +1,10 @@
 import './App.css'
 import { useMovies } from './hooks/useMovies'
 import { Movies } from './components/Movies'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useState } from 'react'
 import debounce from 'just-debounce-it'
+import { useSearch } from './hooks/useSearch'
 
-function useSearch () {
-  const [search, setSearch] = useState('')
-  const [error, setError] = useState(null)
-  const isFirstInput = useRef(true)
-
-  useEffect(() => {
-    if (isFirstInput.current) {
-      isFirstInput.current = search === ''
-      return
-    }
-
-    if (search === '') {
-      setError('This field can not be empty')
-      return
-    }
-    if (/^\d+$/.exec(search)) {
-      setError('Search can not be a number')
-      return
-    }
-    if (search.length < 3) {
-      setError('Search must have three characters at least')
-      return
-    }
-    setError(null)
-  }, [search])
-
-  return { search, updateSearch: setSearch, error }
-}
 function App () {
   const [sort, setSort] = useState(false)
   const { search, updateSearch, error } = useSearch()
@@ -57,9 +30,7 @@ function App () {
     debouncedGetMovies(newSearch.trim())
   }
 
-  const handleSort = () => {
-    setSort(!sort)
-  }
+  const handleSort = () => setSort(!sort)
 
   return (
     <div className='page'>
