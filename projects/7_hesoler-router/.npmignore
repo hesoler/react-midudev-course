@@ -1,0 +1,7 @@
+public/vite.svg
+src
+.eslintrc.cjs
+.swcrc
+index.html
+vite.config.js
+yarn*
