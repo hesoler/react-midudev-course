@@ -1,3 +1,3 @@
-export { Link } from './components/Link.jsx'
-export { Route } from './components/Route.jsx'
-export { Router } from './components/Router.jsx'
+export { Link } from './components/Link'
+export { Route } from './components/Route'
+export { Router } from './components/Router'
