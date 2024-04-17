@@ -124,6 +124,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.6"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    todomvc-app-css: "npm:2.4.3"
     typescript: "npm:*"
     vite: "npm:^5.2.0"
   languageName: unknown
@@ -7369,6 +7370,13 @@ __metadata:
   dependencies:
     is-number: "npm:^7.0.0"
   checksum: 10c0/487988b0a19c654ff3e1961b87f471702e708fa8a8dd02a298ef16da7206692e8552a0250e8b3e8759270f62e9d8314616f6da274734d3b558b1fc7b7724e892
+  languageName: node
+  linkType: hard
+
+"todomvc-app-css@npm:2.4.3":
+  version: 2.4.3
+  resolution: "todomvc-app-css@npm:2.4.3"
+  checksum: 10c0/0f7516a7fdc44ebf93e959bdb3e85294e8be1282438a586ea39f5b15dc552c7d543c168d09ab8b5fcc6717485e1e1120c0890a8b4a2c54fc6a0a7fb19b00baf0
   languageName: node
   linkType: hard
 
