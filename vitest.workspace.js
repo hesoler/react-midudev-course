@@ -9,5 +9,6 @@ export default defineWorkspace([
   './projects/6_shopping-cart/vite.config.js',
   './projects/7_hesoler-router/vite.config.js',
   './projects/8_todo-app-ts/vite.config.ts',
-  './projects/9_google-translate-clone/vite.config.ts'
+  './projects/9_google-translate-clone/vite.config.ts',
+  './projects/10_crud-react-redux/vite.config.ts'
 ])

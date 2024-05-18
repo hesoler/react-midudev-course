@@ -41,5 +41,6 @@ Proyectos que he ido desarrollando como parte de un curso de React, con el objet
 | `07`   | React Router Clone                                          | [Ver](projects/7_hesoler-router)          | [Visitar](https://www.npmjs.com/package/hesoler-router/)    |
 | `08`   | Todo App con TypeScript y animaciones                       | [Ver](projects/8_todo-app-ts)             | [Visitar](https://hesoler-todo-app.netlify.app/)            |
 | `09`   | Google Translate clone                                      | [Ver](projects/9_google-translate-clone/) | [Visitar](https://hesoler-translate.netlify.app/)           |
+| `10`   | CRUD con Redux                                              | [Ver](projects/10_crud-react-redux//)     | <!--[Visitar](https://hesoler-crud-redux.netlify.app/)-->   |
 
 </div>
