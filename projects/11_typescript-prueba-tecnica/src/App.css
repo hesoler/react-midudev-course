@@ -1,0 +1,29 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2em;
+}
+
+.App header input {
+  height: 1.5em;
+}
+
+.tbody--showColor tr:nth-child(even) {
+  background-color: #555;
+}
+.tbody--showColor tr:nth-child(odd) {
+  background-color: #333;
+}
+
+.pointer {
+  cursor: pointer;
+}

@@ -30,17 +30,18 @@ Proyectos que he ido desarrollando como parte de un curso de React, con el objet
 
 ### 👨‍💻️ Proyectos de React con código
 
-| Número | Proyecto                                                    | Código                                    | Web                                                         |
-| ------ | ----------------------------------------------------------- | -------------------------------------     | ----------------------------------------------------------- |
-| `01`   | Twitter Follow Card                                         | [Ver](projects/1_twitter-follow-card)     | [Visitar](https://hesoler-twitter-follow-card.netlify.app/) |
-| `02`   | Tic Tac Toe                                                 | [Ver](projects/2_tic-tac-toe)             | [Visitar](https://hesoler-tic-tac-toe.netlify.app/)         |
-| `03`   | Mouse Follower                                              | [Ver](projects/3_mouse-follower)          | [Visitar](https://hesoler-mouse-follower.netlify.app/)      |
-| `04`   | Prueba técnica con Promesas, fetching y testing E2E         | [Ver](projects/4_prueba-tecnica)          | [Visitar](https://hesoler-cats-app.netlify.app//)           |
-| `05`   | Prueba técnica con formularios, buscador utilizando una API | [Ver](projects/5_buscador-peliculas)      | [Visitar](https://hesoler-buscador-peliculas.netlify.app/)  |
-| `06`   | Carrito de compras                                          | [Ver](projects/6_shopping-cart)           | [Visitar](https://hesoler-carrito-compras.netlify.app/)     |
-| `07`   | React Router Clone                                          | [Ver](projects/7_hesoler-router)          | [Visitar](https://www.npmjs.com/package/hesoler-router/)    |
-| `08`   | Todo App con TypeScript y animaciones                       | [Ver](projects/8_todo-app-ts)             | [Visitar](https://hesoler-todo-app.netlify.app/)            |
-| `09`   | Google Translate clone                                      | [Ver](projects/9_google-translate-clone/) | [Visitar](https://hesoler-translate.netlify.app/)           |
-| `10`   | CRUD con Redux                                              | [Ver](projects/10_crud-react-redux//)     | <!--[Visitar](https://hesoler-crud-redux.netlify.app/)-->   |
+| Número | Proyecto                                                    | Código                                         | Web                                                         |
+| ------ | ----------------------------------------------------------- | -------------------------------------          | ----------------------------------------------------------- |
+| `01`   | Twitter Follow Card                                         | [Ver](projects/1_twitter-follow-card)          | [Visitar](https://hesoler-twitter-follow-card.netlify.app/) |
+| `02`   | Tic Tac Toe                                                 | [Ver](projects/2_tic-tac-toe)                  | [Visitar](https://hesoler-tic-tac-toe.netlify.app/)         |
+| `03`   | Mouse Follower                                              | [Ver](projects/3_mouse-follower)               | [Visitar](https://hesoler-mouse-follower.netlify.app/)      |
+| `04`   | Prueba técnica con Promesas, fetching y testing E2E         | [Ver](projects/4_prueba-tecnica)               | [Visitar](https://hesoler-cats-app.netlify.app//)           |
+| `05`   | Prueba técnica con formularios, buscador utilizando una API | [Ver](projects/5_buscador-peliculas)           | [Visitar](https://hesoler-buscador-peliculas.netlify.app/)  |
+| `06`   | Carrito de compras                                          | [Ver](projects/6_shopping-cart)                | [Visitar](https://hesoler-carrito-compras.netlify.app/)     |
+| `07`   | React Router Clone                                          | [Ver](projects/7_hesoler-router)               | [Visitar](https://www.npmjs.com/package/hesoler-router/)    |
+| `08`   | Todo App con TypeScript y animaciones                       | [Ver](projects/8_todo-app-ts)                  | [Visitar](https://hesoler-todo-app.netlify.app/)            |
+| `09`   | Google Translate clone                                      | [Ver](projects/9_google-translate-clone/)      | [Visitar](https://hesoler-translate.netlify.app/)           |
+| `10`   | CRUD con Redux                                              | [Ver](projects/10_crud-react-redux/)           | <!--[Visitar](https://hesoler-crud-redux.netlify.app/)-->   |
+| `11`   | Prueba técnica con TypeScript y React                       | [Ver](projects/11_typescript-prueba-tecnica/)  | [Visitar](https://hesoler-prueba-tecninca-ts.netlify.app/)  |
 
 </div>
