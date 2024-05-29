@@ -11,5 +11,6 @@ export default defineWorkspace([
   './projects/8_todo-app-ts/vite.config.ts',
   './projects/9_google-translate-clone/vite.config.ts',
   './projects/10_crud-react-redux/vite.config.ts',
-  './projects/11_typescript-prueba-tecnica'
+  './projects/11_typescript-prueba-tecnica',
+  './projects/11b_typescript-prueba-tecnica'
 ])

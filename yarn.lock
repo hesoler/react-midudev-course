@@ -61,6 +61,35 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"11b_typescript-prueba-tecnica@workspace:projects/11b_typescript-prueba-tecnica":
+  version: 0.0.0-use.local
+  resolution: "11b_typescript-prueba-tecnica@workspace:projects/11b_typescript-prueba-tecnica"
+  dependencies:
+    "@eslint/js": "npm:^9.3.0"
+    "@tanstack/react-query": "npm:^5.40.0"
+    "@tanstack/react-query-devtools": "npm:5.40.0"
+    "@types/react": "npm:^18.2.66"
+    "@types/react-dom": "npm:^18.2.22"
+    "@typescript-eslint/eslint-plugin": "npm:^6.4.0"
+    "@typescript-eslint/parser": "npm:^6.0.0"
+    "@vitejs/plugin-react-swc": "npm:^3.5.0"
+    eslint: "npm:^8.0.1"
+    eslint-config-standard-with-typescript: "npm:^43.0.1"
+    eslint-plugin-import: "npm:^2.25.2"
+    eslint-plugin-n: "npm:^15.0.0"
+    eslint-plugin-promise: "npm:^6.0.0"
+    eslint-plugin-react: "npm:^7.34.1"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.6"
+    globals: "npm:^15.3.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:*"
+    typescript-eslint: "npm:^7.10.0"
+    vite: "npm:^5.2.0"
+  languageName: unknown
+  linkType: soft
+
 "1_twitter-follow-card@workspace:projects/1_twitter-follow-card":
   version: 0.0.0-use.local
   resolution: "1_twitter-follow-card@workspace:projects/1_twitter-follow-card"
@@ -1597,6 +1626,43 @@ __metadata:
   dependencies:
     defer-to-connect: "npm:^2.0.0"
   checksum: 10c0/73946918c025339db68b09abd91fa3001e87fc749c619d2e9c2003a663039d4c3cb89836c98a96598b3d47dec2481284ba85355392644911f5ecd2336536697f
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@tanstack/query-core@npm:5.40.0"
+  checksum: 10c0/8ed200657dcdc1c05a44571be07e7a9d9a6c19c4ac067560bfb9d065a9cfb3e0dbbd0c44c17814272fd0b8d559030e9f4b50fb917c4312bbe61c9848767fde38
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-devtools@npm:5.37.1":
+  version: 5.37.1
+  resolution: "@tanstack/query-devtools@npm:5.37.1"
+  checksum: 10c0/c52c320972e2b430da69f18295ddb2c62ea5c3c1b83481b225be799f7e955e32782d68871bddc141acc468cf4d7ad5dcdd2c88ff3edc90021d28e57252dfab8b
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query-devtools@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@tanstack/react-query-devtools@npm:5.40.0"
+  dependencies:
+    "@tanstack/query-devtools": "npm:5.37.1"
+  peerDependencies:
+    "@tanstack/react-query": ^5.40.0
+    react: ^18 || ^19
+  checksum: 10c0/e3e30b54861d33a3cd2f19305a8db388baa81aa71616986efe7ce39ecc71991a554ac588270fc9cba4a86a78f7a1d4910e9a031b90b0efe85e896039e0f90e74
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.40.0":
+  version: 5.40.0
+  resolution: "@tanstack/react-query@npm:5.40.0"
+  dependencies:
+    "@tanstack/query-core": "npm:5.40.0"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 10c0/7298215fb1243c858006541267904023aa58a47e440c9b09425de7ed5547e88d56f9366a28cc01d0d165cf26d09b85c0cc6fcf884a1cf3936ead14b4afb3fa11
   languageName: node
   linkType: hard
 

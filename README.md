@@ -43,5 +43,6 @@ Proyectos que he ido desarrollando como parte de un curso de React, con el objet
 | `09`   | Google Translate clone                                      | [Ver](projects/9_google-translate-clone/)      | [Visitar](https://hesoler-translate.netlify.app/)           |
 | `10`   | CRUD con Redux                                              | [Ver](projects/10_crud-react-redux/)           | <!--[Visitar](https://hesoler-crud-redux.netlify.app/)-->   |
 | `11`   | Prueba técnica con TypeScript y React                       | [Ver](projects/11_typescript-prueba-tecnica/)  | [Visitar](https://hesoler-prueba-tecninca-ts.netlify.app/)  |
+| `11b`  | Prueba técnica con TypeScript y React con React Query       | [Ver](projects/11b_typescript-prueba-tecnica/) |                                                             |
 
 </div>
