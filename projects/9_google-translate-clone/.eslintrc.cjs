@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: [
     'standard-with-typescript',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
+    'standard-jsx'
   ],
   parserOptions: {
     ecmaVersion: 'latest',

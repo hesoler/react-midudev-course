@@ -67,7 +67,8 @@ function App () {
         <button onClick={handleReset}>
           Resetear
         </button>
-        <input placeholder='Filtrar por país'
+        <input
+          placeholder='Filtrar por país'
           onChange={evt => { setFilterCountry(evt.target.value) }}
         />
         <span>
