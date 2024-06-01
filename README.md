@@ -45,5 +45,6 @@ Proyectos que he ido desarrollando como parte de un curso de React, con el objet
 | `11`   | Prueba técnica con TypeScript y React                       | [Ver](projects/11_typescript-prueba-tecnica/)  | [Visitar](https://hesoler-prueba-tecninca-ts.netlify.app/)  |
 | `11b`  | Prueba técnica con TypeScript y React con React Query       | [Ver](projects/11b_typescript-prueba-tecnica/) |                                                             |
 | `12`   | Sistema de comentarios con React Query                      | [Ver](projects/12_comments-react-query/)       | [Visitar](https://hesoler-app-comments.netlify.app/)        |
+| `13`   | Cuestionario de JavaScript con Zustand                      | [Ver](projects/13_javascript-quiz-zustand/)    | [Visitar](https://hesoler-js-quiz.netlify.app/)             |
 
 </div>
