@@ -6,7 +6,7 @@
 
 ### Descripción
 
-Proyectos que he ido desarrollando como parte de un curso de React, con el objetivo de ampliar mis habilidades con esta librería.
+Este es un mono-repositorio de proyectos que he ido desarrollando como parte de un curso de React, con el objetivo de ampliar mis habilidades con esta librería.
 
 <hr>
 
